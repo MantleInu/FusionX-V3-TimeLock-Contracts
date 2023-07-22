@@ -1,0 +1,14 @@
+{
+  "name": "fusionx-v3-timelock-contracts",
+  "version": "1.0.0",
+  "description": "time lock contracts for V3 Liquditity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shinsu",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.17.0"
+  }
+}
