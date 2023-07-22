@@ -22,13 +22,6 @@ module.exports = {
     artifacts: "./artifacts"
   },
     networks: {
-      buildbear: {
-        url: "https://rpc.buildbear.io/ruling-sly-moore-9a39229b",  
-            accounts: [PRIVATE_KEY],
-      },
-    localhost: {
-      url: "http://127.0.0.1:8545",
-    },
     mantleTestnet: {
       url: "https://rpc.testnet.mantle.xyz/",
       chainId: 5001,
@@ -42,7 +35,6 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      buildbear: "verifyContract",
       mantle: 'xyz', //random value
     },
     customChains: [
@@ -52,14 +44,6 @@ module.exports = {
         urls: {
           apiURL: "https://explorer.mantle.xyz/api",
           browserURL: "https://explorer.mantle.xyz"
-        },
-      },
-      {
-        network: "buildbear",
-        chainId: 9929,
-        urls: {
-          apiURL: "https://rpc.buildbear.io/verify/etherscan/ruling-sly-moore-9a39229b",
-          browserURL: "https://explorer.buildbear.io/ruling-sly-moore-9a39229b",
         },
       },
     ],
